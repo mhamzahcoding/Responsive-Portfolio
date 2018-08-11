@@ -1,0 +1,352 @@
+body {
+    background-image: url(../images/congruent_pentagon.png);
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777777;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+header {
+    background: #ffffff;
+    margin: 0 25%;
+    height: 75px;
+    width: 53%;
+}
+
+.web-title {
+    box-sizing: border-box;
+    float: left;
+    background: #4aaaa5;
+    height: 75px;
+    text-align: center;
+    color: #ffffff;
+}
+.bar-heading {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.right-bar {
+    float: right;
+    padding-top: 25px;
+}
+
+li {
+    display: inline;
+}
+
+.top-link {
+    color: #4aaaa5
+}
+
+.main{
+    clear: both;
+    margin: 0 25%;
+    width: 50%;
+    padding: 10px 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    line-height: 15px;
+}
+
+.head-2 {
+    color: #777777;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.my-img {
+    width: 200px;
+    height: 160px;
+    float: left;
+    margin: 0 20px 15px 0;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    font-size: 16px;
+    border-top: 5px solid #4aaaa5;
+    color: #cccccc;
+}
+
+/* Contact.html STARTS */
+
+.main-2{
+    clear: both;
+    margin: 0 25%;
+    width: 50%;
+    padding: 10px 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    line-height: 15px;
+}
+
+.contact-page {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr {
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: block;
+    margin-top: 0px;
+}
+
+.contact-box {
+    width: 100%;
+    border: 0.5px inset #dddddd;
+    padding: 8px;
+}
+
+.contact-box2 {
+    width: 100%;
+    border: 0.5px outset #dddddd;
+    padding: 8px;
+}
+
+textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Portfolio.html STARTS */
+
+.main-3 {
+    clear: both;
+    margin: 0 25%;
+    width: 50%;
+    height: 600px;
+    padding: 10px 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    line-height: 15px;
+}
+
+.portfolio-1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #777777;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    padding: 8px 16px 8px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hang-rpg {
+    box-sizing: border-box;
+    position: relative;
+    bottom: 35px;
+    background: #4aaaa5;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.pic-2 {
+    position: relative;
+    bottom: 30px;
+}
+
+.trivia-rutgers {
+    box-sizing: border-box;
+    position: relative;
+    bottom: 66px;
+    background: #4aaaa5;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.pic-3 {
+    position: relative;
+    bottom: 60px;
+}
+
+.rock-paper {
+    box-sizing: border-box;
+    position: relative;
+    bottom: 94px;
+    background: #4aaaa5;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+@media(min-width: 980px){
+    .web-title{
+        position: relative;
+        left: -23%;
+    }
+    .main, .main-2, .main-3{
+        margin: auto;
+         width: 50%;
+         position: relative;
+         left: -10%; 
+     }
+}
+
+@media(max-width: 980px){
+    .web-title{
+        position: relative;
+        left: -23%;
+    }
+    
+    .main, .main-2, .main-3{
+        margin: auto;
+        width: 80%;
+        position: relative;
+        left: 5%; 
+    }
+
+    .right-bar{
+        position: relative;
+        left: 33%;
+    }
+}
+
+@media(max-width: 768px){
+    .web-title{
+        position: relative;
+        left: -23%;
+    }
+    
+    .port-pic{
+        width:100%;
+    }
+
+    .pic-1, .pic-2, .pic-3{
+        width: 100%;
+        display: block;
+        width: 297px;
+        height: 140px;
+    }
+
+    .hang-rpg, .trivia-rutgers, .rock-paper{
+        margin: 0 auto;
+        width: 100%
+    }
+
+    .main, .main-2, .main-3{
+        margin: auto;
+        width: 80%;
+        position: relative;
+        left: 5%;
+}
+}
+
+@media(max-width: 640px){
+    body{
+        margin: 0px;
+    }
+
+    .right-bar{
+        position: relative;
+        height: 53px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    header{
+        margin: 0px;
+    }
+
+    .web-title{
+        width:197%;
+        position: static;
+    }
+    .main, .main-2, .main-3{
+       margin: auto;
+        width: 90%;
+        left: 0%;
+        height: 100%;
+    }
+    
+    .my-img{
+        width: 100%;
+        height: 15%;;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .port-pic{
+        width:70%;
+        margin: 0 auto;
+    }
+
+    .pic-1, .pic-2, .pic-3{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .hang-rpg, .trivia-rutgers, .rock-paper{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    table{
+        margin: auto;
+    }
+
+    td{
+        width: 100%;
+        padding: 0px;
+        display: block;
+        padding: 0 0 0 0;
+    }
+}
